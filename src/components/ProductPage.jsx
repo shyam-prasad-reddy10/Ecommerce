@@ -41,7 +41,7 @@ const ProductPage = ({ category }) => {
           products.map((product) => (
             <div key={product.id} className="product-card">
               <img
-                src={${BASE_URL}/api/products/images/${product.imagePath}}
+                src={`${BASE_URL}/api/products/images/${product.imagePath}`}
                 alt={product.name}
               />
               <h3>{product.name}</h3>
