@@ -12,7 +12,7 @@ import Pendrives from './components/Pendrives';
 import Home from './components/Home'
 import ProductPage from './components/ProductPage'
 import Cart from './components/Cart';
-import Payment from './components/Payment';
+import Payment from './components/Payments';
 import Orders from './components/Orders';
 
 
